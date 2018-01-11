@@ -9,6 +9,7 @@ object HelloWorld {
     val testMap = mutable.Map[String,String]()
     testMap += ("major" -> "lonly")
     println(testMap("major"))
+
   }
 
 }
